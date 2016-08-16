@@ -7,9 +7,11 @@ const html = `
   Please pick a font size:
 <h3>
 <ul>
-${[1,2,3,4]
-  .map(number => createButtonHtml(number))
-  .join("")}
+${
+  [1, 2, 3, 4]
+    .map(createButtonHtml)
+    .join("")
+  }
 </ul>`;
 
 
