@@ -1,31 +1,24 @@
-const html = `
-<h2>  
-  Application Settings
-</h2>
+let html = "" +
+  "<h2>" +
+  "  Application Settings" +
+  "</h2>" +
+  "<h3>" +
+  "  Please pick a font size:" +
+  "<h3>" +
+  "<ul>";
 
-<h3>
-  Please pick a font size:
-<h3>
-<ul>
-${
-  [1, 2, 3, 4]
-    .map(createButtonHtml)
-    .join("")
-  }
-</ul>`;
+for (let number = 1; number < 5; number++) {
 
+  let size = `${number * 100}%`;
 
-function createButtonHtml(number) {
-  const size = `${number * 100}%`;
+  html += "" +
+    "<button onclick=\"setSize('" + size + "');\">" +
+    "#" + number + " - " + size +
+    "</button>";
 
-  return `
-<li>
-<button onclick="setSize('${size}');">
-  #${number} - ${size}
-</button>
-</li>
-`;
 }
+
+html += "</ul>";
 
 document.body.insertAdjacentHTML("beforeend", html);
 
