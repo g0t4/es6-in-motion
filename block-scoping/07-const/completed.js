@@ -11,7 +11,7 @@ function asUsed(){
   const result = {
     average: average,
     sum: sum
-  }
+  };
   console.log("The average price is: " + average.toFixed(2));
 
   result.average = 1;
