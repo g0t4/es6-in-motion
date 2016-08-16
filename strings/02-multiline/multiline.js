@@ -1,4 +1,4 @@
-let html = `
+const html = `
 <h2>  
   Application Settings
 </h2>
@@ -6,23 +6,24 @@ let html = `
 <h3>
   Please pick a font size:
 <h3>
-<ul>`;
+<ul>
+${[1,2,3,4]
+  .map(number => createButtonHtml(number))
+  .join("")}
+</ul>`;
 
-for (let number = 1; number < 5; number++) {
 
-  let size = `${number * 100}%`;
+function createButtonHtml(number) {
+  const size = `${number * 100}%`;
 
-  html += `
+  return `
 <li>
 <button onclick="setSize('${size}');">
   #${number} - ${size}
 </button>
 </li>
 `;
-
 }
-
-html += "</ul>";
 
 document.body.insertAdjacentHTML("beforeend", html);
 
