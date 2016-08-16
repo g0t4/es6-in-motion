@@ -13,9 +13,12 @@ for (let number = 1; number < 5; number++) {
   let size = `${number * 100}%`;
 
   html += `
+<li>
 <button onclick="setSize('${size}');">
   #${number} - ${size}
-</button>`;
+</button>
+</li>
+`;
 
 }
 
