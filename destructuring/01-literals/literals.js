@@ -29,3 +29,15 @@ const person2 = {
   }
 };
 console.log(person2);
+
+
+const numbers = new Array();
+numbers[0] = 1;
+numbers[1] = 2;
+numbers[2] = 3;
+
+const numbers2 = [1, 2, 3];
+
+
+
+
