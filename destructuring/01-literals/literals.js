@@ -22,7 +22,10 @@ const person2 = {
     state: "NY"
   },
   fullName() {
-    return `${this.first} ${this.last}`;
+    //const {first, last} = this;
+    const first = this.first;
+    const last = this.last;
+    return `${first} ${last}`;
   },
   [pet]: {
     name: "fluffly"
@@ -37,7 +40,6 @@ numbers[1] = 2;
 numbers[2] = 3;
 
 const numbers2 = [1, 2, 3];
-
 
 
 
