@@ -8,9 +8,8 @@ function validate() {
 
   const matches = name.match(nameParser);
   // ["Higbee, Pax", "Higbee", "Pax"]
-  const [ , last, first ] = matches;
-  // const last = matches[1];
-  // const first = matches[2];
+  const last = matches[1];
+  const first = matches[2];
 
   const outputElement = document.getElementById("output");
   outputElement.innerText = `
