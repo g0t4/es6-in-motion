@@ -1,20 +1,18 @@
 const {log} = console;
 
 // Parameter Defaults
-function areaOfRectangle(width, height = width) {
+function areaOfRectangle(width, height) {
   return width * height;
 }
 
 log(areaOfRectangle(5));
 log(areaOfRectangle(5, 4));
 
-function areaOfRectangle2(a, b) {
-  let height = (b === undefined) ? a : b;
-  let width = a;
-  {
-    return width * height
-  }
-}
+// Destructuring Defaults
+const [width, height] = [5, 4];
 
-log(areaOfRectangle2(5));
-log(areaOfRectangle2(5, 4));
+log({
+  width,
+  height,
+  area: width * height
+});
