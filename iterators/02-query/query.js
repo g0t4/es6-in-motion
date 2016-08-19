@@ -22,7 +22,13 @@ function PersonQuery() {
       return {done: true};
     }
 
-    return {next};
+    return {
+      next,
+      return(){
+        console.log("cleanup");
+        return {done: true};
+      }
+    };
   }
 
   this[Symbol.iterator] = createIterator;
@@ -53,6 +59,9 @@ const numbers2 = [4, 5, 6, 7];
 const combined = [...numbers1, ...numbers2, ...new PersonQuery()];
 console.log(combined);
 
-const minimum = Math.min(...[1,2]);
+const minimum = Math.min(...[1, 2]);
 console.log(minimum);
 
+console.clear();
+const [ firstRecord2 ] = new PersonQuery();
+console.log(firstRecord2);
