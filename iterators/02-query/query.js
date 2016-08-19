@@ -4,24 +4,24 @@ function PersonQuery() {
   const jonathan = {first: "Jonathan", last: "Higbee"};
 
   let theNextRecord = wes;
-  this.nextRecord = function () {
+  this.next = function () {
     switch (theNextRecord) {
       case wes:
         theNextRecord = pax;
-        return wes;
+        return {value: wes, done: false};
       case pax:
         theNextRecord = jonathan;
-        return pax;
+        return {value: pax, done: false};
       case jonathan:
         theNextRecord = undefined;
-        return jonathan;
+        return {value: jonathan, done: false};
     }
-    return theNextRecord;
+    return {done: true};
   }
 }
 
 const query = new PersonQuery();
-console.log(query.nextRecord());
-console.log(query.nextRecord());
-console.log(query.nextRecord());
-console.log(query.nextRecord());
+console.log(query.next());
+console.log(query.next());
+console.log(query.next());
+console.log(query.next());
