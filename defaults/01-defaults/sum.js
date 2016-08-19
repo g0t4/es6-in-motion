@@ -17,9 +17,9 @@ function sum(numbers = []) {
   //for (let index = 0; index < numbers.length; index++) {
   //  sum += numbers[index] || 0;
   //}
-  for (const [index,number] of numbers.entries()) {
+  for (const [index,number = 0] of numbers.entries()) {
     //console.log(entry);
-    sum += number || 0;
+    sum += number;
   }
   return sum;
 }
