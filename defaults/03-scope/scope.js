@@ -8,11 +8,13 @@ function areaOfRectangle(width, height = width) {
 log(areaOfRectangle(5));
 log(areaOfRectangle(5, 4));
 
-// Destructuring Defaults
-const [width, height = width] = [5, undefined];
+function areaOfRectangle2(a, b) {
+  let height = (b === undefined) ? a : b;
+  let width = a;
+  {
+    return width * height
+  }
+}
 
-log({
-  width,
-  height,
-  area: width * height
-});
+log(areaOfRectangle2(5));
+log(areaOfRectangle2(5, 4));
