@@ -40,3 +40,7 @@ console.log(query.next());
 for (const record of new PersonQuery()) {
   console.log(record);
 }
+console.clear();
+const [ firstRecord, ...rest ] = new PersonQuery();
+console.log(firstRecord);
+console.log(rest);
