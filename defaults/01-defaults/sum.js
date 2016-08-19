@@ -11,14 +11,27 @@ const orders = [
   {desc: "Paperclips", price: 4.30}
 ];
 
-function sum(numbers = []) {
-  // numbers = numbers || [];
+function sumInitial(numbers = []) {
+  numbers = numbers || [];
   let sum = 0;
-  //for (let index = 0; index < numbers.length; index++) {
-  //  sum += numbers[index] || 0;
-  //}
-  for (const [index,number = 0] of numbers.entries()) {
-    //console.log(entry);
+  for (let index = 0; index < numbers.length; index++) {
+    sum += numbers[index] || 0;
+  }
+  return sum;
+}
+
+function sum(numbers = []) {
+  let sum = 0;
+  for (const [,number = 0] of numbers.entries()) {
+    sum += number;
+  }
+  return sum;
+}
+
+function sum(numbers = []) {
+  let sum = 0;
+  for (let number of numbers) {
+    if (number === undefined) number = 0;
     sum += number;
   }
   return sum;
