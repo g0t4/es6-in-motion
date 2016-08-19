@@ -13,10 +13,32 @@ const orders = [
 
 function sum(numbers = []) {
   let sum = 0;
-  for (const [,number = 0] of numbers.entries()) {
+  for (const number of numbers) {
     sum += number;
   }
   return sum;
 }
 
-console.log(sum(numbers));
+const identity = numbers2.map(n => n);
+console.log(identity);
+
+console.log(sum(identity));
+
+const cleaned = numbers2.map((n = 0) => n);
+console.log(cleaned);
+console.log(sum(cleaned));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
