@@ -11,7 +11,7 @@ const orders = [
   {desc: "Paperclips", price: 4.30}
 ];
 
-function sumInitial(numbers = []) {
+function sumInitial(numbers) {
   numbers = numbers || [];
   let sum = 0;
   for (let index = 0; index < numbers.length; index++) {
