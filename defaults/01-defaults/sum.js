@@ -11,12 +11,15 @@ const orders = [
   {desc: "Paperclips", price: 4.30}
 ];
 
-function sum(numbers) {
+function sum(numbers = []) {
+  // numbers = numbers || [];
   let sum = 0;
   for (let index = 0; index < numbers.length; index++) {
-    sum += numbers[index];
+    sum += numbers[index] || 0;
   }
   return sum;
 }
 
 console.log(sum(numbers));
+console.log(sum(numbers1));
+console.log(sum(numbers2));
