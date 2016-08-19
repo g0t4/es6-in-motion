@@ -8,6 +8,12 @@ function validate() {
   // call parseName and use destructuring to pull apart values, print out error if invalid name is detected
 
   const outputElement = document.getElementById("output");
+  const [ success, last, first ] = parseName(name);
+  if (!success) {
+    outputElement.innerText = `Invalid name: ${name}`;
+    return;
+  }
+
   outputElement.innerText = `
       First Name: ${first}
       Last Name: ${last}
