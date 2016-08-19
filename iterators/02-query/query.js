@@ -27,8 +27,15 @@ function PersonQuery() {
 
 }
 
-const query = new PersonQuery();
+const query = new PersonQuery().createIterator();
 console.log(query.next());
 console.log(query.next());
 console.log(query.next());
 console.log(query.next());
+
+
+const query2 = new PersonQuery().createIterator();
+console.log(query2.next());
+console.log(query2.next());
+console.log(query2.next());
+console.log(query2.next());
