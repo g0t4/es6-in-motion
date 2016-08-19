@@ -3,7 +3,7 @@ function PersonQuery() {
   const pax = {first: "Pax", last: "Higbee"};
   const jonathan = {first: "Jonathan", last: "Higbee"};
 
-  this.createIterator = function () {
+  function createIterator() {
 
     let theNextRecord = wes;
 
@@ -23,18 +23,20 @@ function PersonQuery() {
     }
 
     return {next};
-  };
+  }
+
+  this[Symbol.iterator] = createIterator;
 
 }
 
-const query = new PersonQuery().createIterator();
+const query = (new PersonQuery())[Symbol.iterator]();
 console.log(query.next());
 console.log(query.next());
 console.log(query.next());
 console.log(query.next());
 
 
-const query2 = new PersonQuery().createIterator();
+const query2 = (new PersonQuery())[Symbol.iterator]();
 console.log(query2.next());
 console.log(query2.next());
 console.log(query2.next());
