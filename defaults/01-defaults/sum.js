@@ -14,8 +14,12 @@ const orders = [
 function sum(numbers = []) {
   // numbers = numbers || [];
   let sum = 0;
-  for (let index = 0; index < numbers.length; index++) {
-    sum += numbers[index] || 0;
+  //for (let index = 0; index < numbers.length; index++) {
+  //  sum += numbers[index] || 0;
+  //}
+  for (const [index,number] of numbers.entries()) {
+    //console.log(entry);
+    sum += number || 0;
   }
   return sum;
 }
