@@ -29,18 +29,22 @@ function PersonQuery() {
 
 }
 
-
+// Manual iteration
 const query = (new PersonQuery())[Symbol.iterator]();
 console.log(query.next().value);
 console.log(query.next().value);
 console.log(query.next());
 console.log(query.next());
 
-
+// The for-of loop works with iterables.
 for (const record of new PersonQuery()) {
   console.log(record);
 }
+
+// The rest operator works with iterables.
 console.clear();
 const [ firstRecord, ...rest ] = new PersonQuery();
 console.log(firstRecord);
 console.log(rest);
+
+// The spread operator works with iterables.
