@@ -28,7 +28,14 @@ const cleaned = numbers2.map((n = 0) => n);
 console.log(cleaned);
 console.log(sum(cleaned));
 
+const costs = orders.map(({price, quantity = 1}) => price * quantity);
 
+const costs = orders.map(function (order) {
+  if (order.quantity === undefined) order.quantity = 1;
+  return order.price * order.quantity;
+});
+
+console.log(costs);
 
 
 
