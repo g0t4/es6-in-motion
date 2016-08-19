@@ -29,15 +29,14 @@ function PersonQuery() {
 
 }
 
+
 const query = (new PersonQuery())[Symbol.iterator]();
-console.log(query.next());
-console.log(query.next());
+console.log(query.next().value);
+console.log(query.next().value);
 console.log(query.next());
 console.log(query.next());
 
 
-const query2 = (new PersonQuery())[Symbol.iterator]();
-console.log(query2.next());
-console.log(query2.next());
-console.log(query2.next());
-console.log(query2.next());
+for (const record of new PersonQuery()) {
+  console.log(record);
+}
