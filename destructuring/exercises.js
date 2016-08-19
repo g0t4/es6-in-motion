@@ -57,3 +57,22 @@ const { address: { lines: [ ,line2 ] } } = person;
 
 line2
 // "Apt 24"
+
+// Structure
+
+const person = {
+  first: "Wes",
+  last: "Higbee",
+  address: {
+    lines: ["100 bob lane", "Apt 24"],
+    city: "NY",
+    state: "NY"
+  }
+};
+
+const {
+  address: {
+    lines: [ ,line2 ]
+  }
+} = person;
+
