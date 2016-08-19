@@ -10,36 +10,8 @@ person.address.street = "100 Fox Lane";
 person.address.city = "New York";
 person.address.state = "NY";
 
-const pet = "cat";
-
-const person2 = {
-  first,
-  last,
-  favoriteColor: "blue",
-  address: {
-    street: "100 Fox Lane",
-    city: "New York",
-    state: "NY"
-  },
-  fullName() {
-    //const {first, last} = this;
-    const first = this.first;
-    const last = this.last;
-    return `${first} ${last}`;
-  },
-  [pet]: {
-    name: "fluffly"
-  }
-};
-console.log(person2);
-
-
+// start point for array literals, will be used momentarily though this doesn't show up in the course right away.
 const numbers = new Array();
 numbers[0] = 1;
 numbers[1] = 2;
 numbers[2] = 3;
-
-const numbers2 = [1, 2, 3];
-
-
-
