@@ -10,5 +10,6 @@ function positiveNumbersUpTo(stop) {
   return iterable;
 }
 
-const numbers = [...positiveNumbersUpTo(9)];
+//const numbers = [...positiveNumbersUpTo(9)];
+const [...numbers] = positiveNumbersUpTo(9);
 console.log(numbers);
