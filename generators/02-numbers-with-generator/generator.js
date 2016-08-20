@@ -16,3 +16,13 @@ function* oneToThree() {
   yield 3;
 }
 
+const generatorObject = oneToThree();
+console.log(generatorObject);
+const iterator = generatorObject[Symbol.iterator]();
+console.log(generatorObject === iterator);
+
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+console.log(generatorObject.next());
+
