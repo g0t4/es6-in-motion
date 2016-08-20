@@ -1,5 +1,5 @@
 // const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
-
+/*
 
 function* positiveNumbersUpTo(stop) {
   let current = 1;
@@ -8,4 +8,11 @@ function* positiveNumbersUpTo(stop) {
 }
 
 const [...numbers] = positiveNumbersUpTo(9);
-console.log(numbers);
+console.log(numbers);*/
+
+function* oneToThree() {
+  yield 1;
+  yield 2;
+  yield 3;
+}
+
