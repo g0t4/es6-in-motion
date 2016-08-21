@@ -1,10 +1,8 @@
 const museumsDatasetUrl = "../../datasets/museums.json";
 
-const requestPromise = fetch(museumsDatasetUrl);
-requestPromise
+fetch(museumsDatasetUrl)
   .then(function (response) {
-    const parsePromise = response.json();
-    return parsePromise;
+    return response.json();
   })
   .then(function (museums) {
     console.log(museums);
