@@ -1,0 +1,888 @@
+[
+  {
+    "name": {
+      "__cdata": "American Folk Art Museum"
+    },
+    "phone": {
+      "__cdata": "212-265-1040"
+    },
+    "address": {
+      "__cdata": "45 W. 53rd St. (at Fifth Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday"
+    },
+    "rates": {
+      "__cdata": "admission: $9; seniors/students, $7; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday after 5:30pm; refreshments and music available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "American Museum of Natural History"
+    },
+    "phone": {
+      "__cdata": "212-769-5200"
+    },
+    "address": {
+      "__cdata": "Central Park West (at W. 79th St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "suggested admission: $16; seniors/students, $12; kids 2&ndash;12, $9; under 2, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Asia Society and Museum"
+    },
+    "phone": {
+      "__cdata": "212-288-6400"
+    },
+    "address": {
+      "__cdata": "725 Park Ave. (at E. 70th St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and federal holidays"
+    },
+    "rates": {
+      "__cdata": "admission: $10; seniors, $7; students, $5; under 16, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 6 to 9pm (September to June); refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Bronx Museum of the Arts"
+    },
+    "phone": {
+      "__cdata": "718-681-6000"
+    },
+    "address": {
+      "__cdata": "1040 Grand Concourse"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday through Wednesday and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $5; seniors/students, $3; children, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday (excluding groups); refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Bronx Zoo"
+    },
+    "phone": {
+      "__cdata": "718-367-1010"
+    },
+    "address": {
+      "__cdata": "Bronx River Parkway and Fordham Road"
+    },
+    "closing": {
+      "__cdata": "Closed: New Year's Day, Martin Luther King Jr. Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $15; seniors, $13; children 3&ndash;12, $11; under 2, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Wednesday (excluding special exhibitions/rides)"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Brooklyn Botanic Garden"
+    },
+    "phone": {
+      "__cdata": "718-623-7200"
+    },
+    "address": {
+      "__cdata": "1000 Washington Ave. (bet. Crown and Montgomery Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (except federal holidays)"
+    },
+    "rates": {
+      "__cdata": "admission: $8; seniors/students, $4; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Free: Tuesday through Saturday from 10am to noon (excluding major public programs)"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Brooklyn Children's Museum"
+    },
+    "phone": {
+      "__cdata": "718-735-4400"
+    },
+    "address": {
+      "__cdata": "145 Brooklyn Ave. (at St. Marks Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (June 29&ndash;September 4, 2010); Monday and Tuesday (September 5, 2010&ndash;June 28, 2011)"
+    },
+    "rates": {
+      "__cdata": "admission: $7.50"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Brooklyn Museum"
+    },
+    "phone": {
+      "__cdata": "718-638-5000"
+    },
+    "address": {
+      "__cdata": "200 Eastern Pkwy. (at Washington Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "suggested contribution: $10; seniors/students, $6; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Target-sponsored free admission: First Saturday of each month from 5 to 11pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Children's Museum of Manhattan"
+    },
+    "phone": {
+      "__cdata": "212-721-1223"
+    },
+    "address": {
+      "__cdata": "212 W. 83rd St. (bet. Broadway and Amsterdam Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday"
+    },
+    "rates": {
+      "__cdata": "admission: $10; seniors, $7; under 1, free"
+    },
+    "specials": {
+      "__cdata": "Target-sponsored free admission: First Friday of each month from 5 to 8pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Cloisters Museum &amp; Gardens"
+    },
+    "phone": {
+      "__cdata": "212-923-3700"
+    },
+    "address": {
+      "__cdata": "Fort Tryon Park, 99 Margaret Corbin Drive"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "suggested admission: $20; seniors, $15; students, $10; under 12, free (admission includes same-day entry to The Metropolitan Museum of Art)"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Cooper-Hewitt, National Design Museum"
+    },
+    "phone": {
+      "__cdata": "212-849-8400"
+    },
+    "address": {
+      "__cdata": "2 E. 91st St. (at Fifth Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $15; seniors/students, $10; under 12, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "El Museo del Barrio"
+    },
+    "phone": {
+      "__cdata": "212-831-7272"
+    },
+    "address": {
+      "__cdata": "1230 Fifth Ave. (bet. E. 104th and E. 105th Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday and New Year's Day, Fourth of July, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $9; seniors/students, $5; members/under 12, free"
+    },
+    "specials": {
+      "__cdata": "Free: Wednesday (for seniors)"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Frick Collection"
+    },
+    "phone": {
+      "__cdata": "212-288-0700"
+    },
+    "address": {
+      "__cdata": "1 E. 70th St. (at Fifth Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday"
+    },
+    "rates": {
+      "__cdata": "admission: $18; seniors, $12; students, $5; under 10 not admitted"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Sunday from 11am to 1pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Guggenheim Museum, Solomon R."
+    },
+    "phone": {
+      "__cdata": "212-423-3500"
+    },
+    "address": {
+      "__cdata": "1071 Fifth Ave. (bet. E. 88th and E. 89th Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Thursday"
+    },
+    "rates": {
+      "__cdata": "admission: $18; seniors/students, $15; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Saturday from 5:45 to 7:45pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "International Center of Photography"
+    },
+    "phone": {
+      "__cdata": "212-857-0000"
+    },
+    "address": {
+      "__cdata": "1133 Sixth Ave. (at W. 43rd St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors/students, $8; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 5 to 8pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Intrepid Sea, Air &amp; Space Museum"
+    },
+    "phone": {
+      "__cdata": "877-957-SHIP (7447)"
+    },
+    "address": {
+      "__cdata": "Pier 86 (Twelfth Ave. and W. 46th St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $24; seniors (62+)/college students (with ID), $20; kids 3&ndash;17, $19; veterans, $17; under 2 and active-duty/retired military, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Japan Society"
+    },
+    "phone": {
+      "__cdata": "212-715-1255"
+    },
+    "address": {
+      "__cdata": "333 E. 47th St. (bet. First and Second Aves.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday"
+    },
+    "rates": {
+      "__cdata": "admission: $10; seniors/students, $8; under 16, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "The Jewish Museum"
+    },
+    "phone": {
+      "__cdata": "212-423-3200"
+    },
+    "address": {
+      "__cdata": "1109 Fifth Ave. (at E. 92nd St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Wednesday, major Jewish holidays and New Year's Day, Martin Luther King Jr. Day and Thanksgiving Day"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors, $10; students, $7.50; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Saturday from 11am to 5:45pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Lower East Side Tenement Museum"
+    },
+    "phone": {
+      "__cdata": "212-431-0233"
+    },
+    "address": {
+      "__cdata": "108 Orchard St. (at Delancey St.)"
+    },
+    "closing": "",
+    "rates": {
+      "__cdata": "admission: $20; seniors/students, $15; under 5, free; discount rates for combination tours"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "The Metropolitan Museum of Art"
+    },
+    "phone": {
+      "__cdata": "212-535-7710"
+    },
+    "address": {
+      "__cdata": "1000 Fifth Ave. (at E. 82nd St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (except Memorial Day; July 5, 2010; Labor Day; Columbus Day; and December 27, 2010)"
+    },
+    "rates": {
+      "__cdata": "recommended admission: $20; seniors, $15; students, $10; under 12, free (admission includes same-day entry to The Cloisters Museum &amp; Gardens)"
+    },
+    "specials": {
+      "__cdata": "Open Friday and Saturday until 9pm with museum admission; rooftop martini bar open until 8pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Morgan Library &amp; Museum"
+    },
+    "phone": {
+      "__cdata": "212-685-0008"
+    },
+    "address": {
+      "__cdata": "225 Madison Ave. (bet. E. 36th and E. 37th Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors/students/kids 12&ndash;16, $8; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 7 to 9pm; refreshments available; McKim rooms free Tuesday from 3 to 5pm and Sunday from 4 to 6pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Museum of Arts and Design"
+    },
+    "phone": {
+      "__cdata": "212-299-7777"
+    },
+    "address": {
+      "__cdata": "2 Columbus Circle (at Eighth Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday"
+    },
+    "rates": {
+      "__cdata": "admission: $15; seniors/students, $12"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Thursday from 6 to 9pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Museum of Chinese in America"
+    },
+    "phone": {
+      "__cdata": "212-619-4785"
+    },
+    "address": {
+      "__cdata": "215 Centre St. (bet. Grand and Howard Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Tuesday and Wednesday (except for pre-scheduled tours)"
+    },
+    "rates": {
+      "__cdata": "admission: $7; seniors/students (with ID), $4; under 12 (in groups of less than eight), free"
+    },
+    "specials": {
+      "__cdata": "Target-sponsored free admission: Thursday"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Museum of Comic and Cartoon Art"
+    },
+    "phone": {
+      "__cdata": "212-254-3511"
+    },
+    "address": {
+      "__cdata": "594 Broadway, Suite 401 (at Houston St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and major holidays"
+    },
+    "rates": {
+      "__cdata": "suggested donation: $5; under 12, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Museum of Jewish Heritage&ndash;A Living Memorial to the Holocaust"
+    },
+    "phone": {
+      "__cdata": "646-437-4202"
+    },
+    "address": {
+      "__cdata": "36 Battery Place (at 1st Place)"
+    },
+    "closing": {
+      "__cdata": "Closed: Saturday, Jewish holidays and Thanksgiving Day"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors, $10; students, $7; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Wednesday from 4 to 8pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Museum of Modern Art (MoMA)"
+    },
+    "phone": {
+      "__cdata": "212-708-9400"
+    },
+    "address": {
+      "__cdata": "11 W. 53rd St. (bet. Fifth and Sixth Aves.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Tuesday"
+    },
+    "rates": {
+      "__cdata": "suggested admission: $20; seniors, $16; students, $12; 16 and under, free"
+    },
+    "specials": {
+      "__cdata": "Target-sponsored free admission: Friday from 4 to 8pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Museum of the City of New York"
+    },
+    "phone": {
+      "__cdata": "212-534-1672"
+    },
+    "address": {
+      "__cdata": "1220 Fifth Ave. (bet. E. 103rd and E. 104th Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (except holidays) and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "suggested admission: $10; seniors/students, $6; families (maximum of two adults), $20; under 12, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "National Museum of the American Indian"
+    },
+    "phone": {
+      "__cdata": "212-514-3700"
+    },
+    "address": {
+      "__cdata": "1 Bowling Green (at Broadway and Battery Place)"
+    },
+    "closing": {
+      "__cdata": "Closed: Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "New Museum"
+    },
+    "phone": {
+      "__cdata": "212-219-1222"
+    },
+    "address": {
+      "__cdata": "235 Bowery (bet. Stanton and Prince Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors, $10; students, $8; 18 and under, free"
+    },
+    "specials": {
+      "__cdata": "Free: Thursday from 7 to 9pm Open Friday until 9pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "New York Aquarium"
+    },
+    "phone": {
+      "__cdata": "718-265-4740"
+    },
+    "address": {
+      "__cdata": "602 Surf Ave. (at W. 8th St.)"
+    },
+    "closing": "",
+    "rates": {
+      "__cdata": "admission: $13; seniors, $10; kids, $9; under 3, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday after 3pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The New York Botanical Garden"
+    },
+    "phone": {
+      "__cdata": "718-817-8700"
+    },
+    "address": {
+      "__cdata": "Bronx River Parkway (at Fordham Road)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (except federal holidays)"
+    },
+    "rates": {
+      "__cdata": "admission: $20; seniors/students, $18; under 12, $8; under 2, free"
+    },
+    "specials": {
+      "__cdata": "Free: All day Wednesday and Saturday from 10am to noon"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "New York Hall of Science"
+    },
+    "phone": {
+      "__cdata": "718-699-0005"
+    },
+    "address": {
+      "__cdata": "47-01 111th St. (at 49th Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $11; students/seniors/kids 2&ndash;17, $8"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 2 to 5pm and Sunday from 10 to 11am from September through June"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "New-York Historical Society"
+    },
+    "phone": {
+      "__cdata": "212-873-3400"
+    },
+    "address": {
+      "__cdata": "170 Central Park West (bet. W. 76th and W. 77th Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors/educators, $9; students, $7; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 6 to 8pm"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "New York Transit Museum"
+    },
+    "phone": {
+      "__cdata": "718-694-1600"
+    },
+    "address": {
+      "__cdata": "Boerum Place and Schermerhorn Street"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and major holidays"
+    },
+    "rates": {
+      "__cdata": "admission: $5; seniors (62+)/kids 3&ndash;17, $3; members, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Wednesday (for seniors)"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Noguchi Museum"
+    },
+    "phone": {
+      "__cdata": "718-204-7088"
+    },
+    "address": {
+      "__cdata": "9-01 33rd Road (bet. Vernon Blvd. and 10th St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday"
+    },
+    "rates": {
+      "__cdata": "admission: $10; seniors/students, $5; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: First Friday of each month"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "P.S.1 Contemporary Art Center"
+    },
+    "phone": {
+      "__cdata": "718-784-2084"
+    },
+    "address": {
+      "__cdata": "22-25 Jackson Ave. (at 46th Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Tuesday and Wednesday and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $5; seniors/students, $2"
+    },
+    "specials": {
+      "__cdata": "Free: With Museum of Modern Art admission ticket dated within 30 days Saturday Warm Up music events until 9pm: admission, $10; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Queens Museum of Art"
+    },
+    "phone": {
+      "__cdata": "718-592-9700"
+    },
+    "address": {
+      "__cdata": "49th Ave. and 111th St."
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday"
+    },
+    "rates": {
+      "__cdata": "suggested donation: $5; seniors/students/kids, $2.50; under 5, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Rubin Museum of Art"
+    },
+    "phone": {
+      "__cdata": "212-620-5000"
+    },
+    "address": {
+      "__cdata": "150 W. 17th St. (bet. Sixth and Seventh Aves.)"
+    },
+    "closing": "",
+    "rates": {
+      "__cdata": "admission: $10; seniors/high school students/artists, $7; college students, $2; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 7 to 10pm; refreshments available; seniors free first Monday of each month"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "The Skyscraper Museum"
+    },
+    "phone": {
+      "__cdata": "212-968-1961"
+    },
+    "address": {
+      "__cdata": "39 Battery Place (at West St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday"
+    },
+    "rates": {
+      "__cdata": "admission: $5; seniors/students, $2.50"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "Snug Harbor Cultural Center &amp; Botanical Garden"
+    },
+    "phone": {
+      "__cdata": "718-448-2500"
+    },
+    "address": {
+      "__cdata": "1000 Richmond Terrace (at Tysen St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (December through April)"
+    },
+    "rates": {
+      "__cdata": "admission for galleries and garden tours: $6; seniors/students/members, $5; under 12, $3; under 3, free"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "South Street Seaport Museum"
+    },
+    "phone": {
+      "__cdata": "212-748-8725"
+    },
+    "address": {
+      "__cdata": "12 Fulton St. (bet. Front and South Sts.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Tuesday through Thursday (January through March); Monday (April through December)"
+    },
+    "rates": {
+      "__cdata": "admission: $12; seniors/students, $10; kids 5&ndash;12, $8; under 5, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Third Friday of each month from 5 to 9pm; refreshments available"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Staten Island Museum"
+    },
+    "phone": {
+      "__cdata": "718-727-1135"
+    },
+    "address": {
+      "__cdata": "75 Stuyvesant Place (at Wall St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (on federal holidays) and New Year's Day, Thanksgiving Day and Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: $2; seniors/students, $1; members/under 12, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Tuesday and Friday from noon to 2pm (lunchtime)"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Statue of Liberty National Monument | Ellis Island Immigration Museum"
+    },
+    "phone": {
+      "__cdata": "212-363-3180"
+    },
+    "address": {
+      "__cdata": "Liberty Island | Ellis Island"
+    },
+    "closing": {
+      "__cdata": "Closed: Christmas Day"
+    },
+    "rates": {
+      "__cdata": "admission: free, except ferry fees ($12; seniors, $10; kids 4&ndash;12, $5) and an optional $3 crown-access fee"
+    },
+    "specials": ""
+  },
+  {
+    "name": {
+      "__cdata": "The Studio Museum in Harlem"
+    },
+    "phone": {
+      "__cdata": "212-864-4500"
+    },
+    "address": {
+      "__cdata": "144 W. 125th St. (bet. Adam Clayton Powell Jr. and Malcolm X Blvds.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday and federal holidays"
+    },
+    "rates": {
+      "__cdata": "admission: $7; seniors/students, $3; under 12, free"
+    },
+    "specials": {
+      "__cdata": "Target-sponsored free admission: Sunday"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Wave Hill"
+    },
+    "phone": {
+      "__cdata": "718-549-3200"
+    },
+    "address": {
+      "__cdata": "W. 249th St. (at Independence Ave.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday (except federal holidays)"
+    },
+    "rates": {
+      "__cdata": "admission: $8; seniors/students, $4; kids 6 and older, $2; under 6, free"
+    },
+    "specials": {
+      "__cdata": "Free: Tuesday and Saturday from 9am to noon (May through June and September through October); all day Tuesday (off-peak months)"
+    }
+  },
+  {
+    "name": {
+      "__cdata": "Whitney Museum of American Art"
+    },
+    "phone": {
+      "__cdata": "212-570-3600"
+    },
+    "address": {
+      "__cdata": "945 Madison Ave. (at E. 75th St.)"
+    },
+    "closing": {
+      "__cdata": "Closed: Monday and Tuesday"
+    },
+    "rates": {
+      "__cdata": "admission: $15; seniors/students, $10; under 11, free"
+    },
+    "specials": {
+      "__cdata": "Pay-cleaned-you-wish: Friday from 6 to 9pm; refreshments available; occasional live music"
+    }
+  }
+]
