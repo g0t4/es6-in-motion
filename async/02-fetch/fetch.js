@@ -1,7 +1,10 @@
-const museumsDatasetUrl = "asdf://../../datasets/museums.json";
+const museumsDatasetUrl = "../../atasets/museums.json";
 
 fetch(museumsDatasetUrl)
-  .catch(e => console.log("tripped"))
   .then(response => response.json())
+  .catch(function (e) {
+    console.log("tripped");
+    return [1,2,3];
+  })
   .then(museums => console.log(museums));
 //  .catch(error => console.log("oh no", error));
