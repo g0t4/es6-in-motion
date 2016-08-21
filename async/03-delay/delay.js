@@ -22,3 +22,16 @@ const code = document.getElementById("code");
 
 code.innerText = messages[0];
 
+setTimeout(function () {
+  code.innerText = messages[1];
+  setTimeout(function () {
+    code.innerText = messages[2];
+    setTimeout(function () {
+      code.innerText = messages[3];
+      setTimeout(function () {
+        code.innerText = messages[4];
+      }, 500);
+    }, 500);
+  }, 500);
+}, 500);
+
