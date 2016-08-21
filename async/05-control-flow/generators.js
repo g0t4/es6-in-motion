@@ -1,9 +1,25 @@
 const museumsDatasetUrl = "../../datasets/museums.json";
+/*
 
 fetch(museumsDatasetUrl)
   .then(response => response.json())
   .then(museums => console.log(museums))
   .catch(error => console.log("oh no", error));
+*/
+
+
+function* program(){
+
+  const requestPromise = fetch(museumsDatasetUrl);
+  const response = yield requestPromise;
+
+  const parsePromise = response.json();
+  const museums = yield parsePromise;
+
+  console.log("from generator", museums);
+}
+
+async(program);
 
 
 
@@ -22,9 +38,6 @@ fetch(museumsDatasetUrl)
 
 
 
-
-  
-  
 // copied from: http://es6-features.org/#GeneratorControlFlow
 // MIT License
 // generic asynchronous control-flow driver
