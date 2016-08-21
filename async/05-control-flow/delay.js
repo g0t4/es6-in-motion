@@ -21,6 +21,7 @@ function (supply) {
 const code = document.getElementById("code");
 
 code.innerText = messages[0];
+/*
 
 setTimeout(function () {
   code.innerText = messages[1];
@@ -43,9 +44,23 @@ delay(500)
   .then(() => code.innerText = messages[3])
   .then(() => delay(1500))
   .then(() => code.innerText = messages[4]);
+*/
 
 // port to generator control flow
+function* program() {
 
+  yield delay(500);
+  code.innerText = messages[1];
+  yield delay(500);
+  code.innerText = messages[2];
+  yield delay(500);
+  code.innerText = messages[3];
+  yield delay(500);
+  code.innerText = messages[4];
+
+}
+
+async(program);
 
 function delay(duration) {
   function executor(resolve, reject) {
