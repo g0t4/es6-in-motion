@@ -21,7 +21,7 @@ function (supply) {
 const code = document.getElementById("code");
 
 code.innerText = messages[0];
-
+/*
 setTimeout(function () {
   code.innerText = messages[1];
   setTimeout(function () {
@@ -33,7 +33,7 @@ setTimeout(function () {
       }, 500);
     }, 500);
   }, 500);
-}, 500);
+}, 500);*/
 
 delay(500)
   .then(() => code.innerText = messages[1])
@@ -41,11 +41,10 @@ delay(500)
   .then(() => code.innerText = messages[2])
   .then(() => delay(500))
   .then(() => code.innerText = messages[3])
-  .then(() => delay(500))
+  .then(() => delay(1500))
   .then(() => code.innerText = messages[4]);
 
 function delay(duration) {
-
   function executor(resolve, reject) {
     setTimeout(function () {
       // trigger success
