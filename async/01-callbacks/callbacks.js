@@ -14,3 +14,7 @@ request.onerror = function (error) {
 };
 
 request.send();
+
+setTimeout(function () {
+  console.log("after delay");
+}, 1000);
