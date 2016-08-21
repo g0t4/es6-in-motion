@@ -2,13 +2,14 @@ function* daysForward(days) {
   for (let count = 0; count < days; count++) {
     let day = new Date();
     day.setDate(day.getDate() + count);
-    yield day;
+    const skip = yield day;
+    count += skip || 0;
   }
 }
 
-const generatorObject = daysForward(15);
+const days = daysForward(15);
 
-console.log(generatorObject.next());
-console.log(generatorObject.next());
-console.log(generatorObject.next());
-console.log(generatorObject.next());
+console.log(days.next());
+console.log(days.next(5));
+console.log(days.next());
+console.log(days.next(3));
