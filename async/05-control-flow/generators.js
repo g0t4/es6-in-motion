@@ -10,13 +10,10 @@ fetch(museumsDatasetUrl)
 
 function* program(){
 
-  const requestPromise = fetch(museumsDatasetUrl);
-  const response = yield requestPromise;
-
-  const parsePromise = response.json();
-  const museums = yield parsePromise;
-
+  const response = yield fetch(museumsDatasetUrl);
+  const museums = yield response.json();
   console.log("from generator", museums);
+
 }
 
 async(program);
