@@ -35,7 +35,6 @@ setTimeout(function () {
   }, 500);
 }, 500);
 
-
 delay(500)
   .then(() => code.innerText = messages[1])
   .then(() => delay(500))
@@ -46,5 +45,13 @@ delay(500)
   .then(() => code.innerText = messages[4]);
 
 function delay(duration) {
-  return new Promise();
+
+  function executor(resolve, reject) {
+    setTimeout(function () {
+      // trigger success
+      resolve();
+    }, duration);
+  }
+
+  return new Promise(executor);
 }
