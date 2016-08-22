@@ -36,12 +36,15 @@ content.innerHTML = new Div()
   .addChild(input3)
   .render();
 
-function TextSpan(text) {
-  this.text = text;
+class TextSpan {
 
-  this.render = function () {
+  constructor(text) {
+    this.text = text;
+  }
+
+  render() {
     return `<span>${this.text}</span>`;
-  };
+  }
 }
 
 function Div() {
