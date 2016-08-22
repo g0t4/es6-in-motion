@@ -14,7 +14,6 @@ for (const slot of slots) {
   const item = new TextListItem(slot);
   availability.addListItem(item);
 }
-
 const container = new Div()
   .addChild(TextSpan.from("Welcome to the annual employee survey!"))
   .addChild(new Div()
