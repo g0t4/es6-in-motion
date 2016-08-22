@@ -36,19 +36,6 @@ content.innerHTML = new Div()
   .addChild(input3)
   .render();
 
-function Input() {
-
-  this.setType = function (type) {
-    this.type = type;
-    return this;
-  };
-
-  this.render = function () {
-    return `<input type="${this.type}"/>`;
-  };
-
-}
-
 function TextSpan(text) {
   this.text = text;
 
