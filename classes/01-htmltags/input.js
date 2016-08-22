@@ -1,11 +1,16 @@
-function Input() {
-  this.type = "text";
-}
+class Input {
 
-Input.prototype.setType = function (type) {
-  this.type = type;
-  return this;
-};
-Input.prototype.render = function () {
-  return `<input type="${this.type}"/>`;
-};
+  constructor() {
+    this.type = "text";
+  }
+
+  setType(type) {
+    this.type = type;
+    return this;
+  }
+
+  render() {
+    return `ss<input type="${this.type}"/>`;
+  }
+
+}
