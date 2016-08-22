@@ -16,7 +16,7 @@ for (const slot of slots) {
 }
 
 const container = new Div()
-  .addChild(new TextSpan("Welcome to the annual employee survey!"))
+  .addChild(TextSpan.from("Welcome to the annual employee survey!"))
   .addChild(new Div()
     .addClass("question")
     .addChild(new TextSpan("What is your favorite flavor?"))
