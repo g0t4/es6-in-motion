@@ -14,8 +14,9 @@ for (const slot of slots) {
   const item = new TextListItem(slot);
   availability.addListItem(item);
 }
+
 const container = new Div()
-  .addChild(TextSpan.from("Welcome to the annual employee survey!"))
+  .addChild(new TextSpan("Welcome to the annual employee survey!"))
   .addChild(new Div()
     .addClass("question")
     .addChild(new TextSpan("What is your favorite flavor?"))
@@ -25,9 +26,28 @@ const container = new Div()
     .addChild(availability));
 
 const content = document.getElementById("content");
-content.innerHTML = container
-  .render();
+content.innerHTML = container.render();
 
+function Input() {
+
+  this.setType = function (type) {
+    this.type = type;
+    return this;
+  };
+
+  this.render = function () {
+    return `<input type="${this.type}"/>`;
+  };
+
+}
+
+function TextSpan(text) {
+  this.text = text;
+
+  this.render = function () {
+    return `<span>${this.text}</span>`;
+  };
+}
 
 function Div() {
   this.children = [];
@@ -74,3 +94,27 @@ function UnorderedList() {
   };
 }
 
+function TextListItem(text) {
+
+  ListItem.call(this);
+
+  this.addChild(new TextSpan(text));
+
+}
+
+function ListItem() {
+  this.children = [];
+
+  this.addChild = function (element) {
+    this.children.push(element);
+    return this;
+  };
+
+  this.render = function () {
+    const childrenHtml = this.children
+      .map(c => c.render())
+      .join("");
+
+    return `<li>${childrenHtml}</li>`
+  };
+}
