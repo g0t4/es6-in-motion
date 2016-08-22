@@ -23,5 +23,6 @@ function TextListItem(text) {
   this.addChild(new TextSpan(text));
 
 }
-TextListItem.prototype.addChild = ListItem.prototype.addChild;
-TextListItem.prototype.render = ListItem.prototype.render;
+
+TextListItem.prototype = Object.create(ListItem.prototype);
+TextListItem.prototype.constructor = TextListItem;
