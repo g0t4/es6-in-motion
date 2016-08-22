@@ -25,8 +25,16 @@ const container = new Div()
   .addChild(new Div()
     .addChild(availability));
 
+const input = new Input().setType("text");
+const input2 = new Input().setType("checkbox");
+const input3 = new Input().setType("radio");
+
 const content = document.getElementById("content");
-content.innerHTML = container.render();
+content.innerHTML = new Div()
+  .addChild(input)
+  .addChild(input2)
+  .addChild(input3)
+  .render();
 
 function Input() {
 
