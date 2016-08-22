@@ -1,11 +1,3 @@
-function TextListItem(text) {
-
-  ListItem.call(this);
-
-  this.addChild(new TextSpan(text));
-
-}
-
 function ListItem() {
   this.children = [];
 
@@ -23,3 +15,13 @@ ListItem.prototype.render = function () {
 
   return `<li>${childrenHtml}</li>`
 };
+
+function TextListItem(text) {
+
+  ListItem.call(this);
+
+  this.addChild(new TextSpan(text));
+
+}
+TextListItem.prototype.addChild = ListItem.prototype.addChild;
+TextListItem.prototype.render = ListItem.prototype.render;
