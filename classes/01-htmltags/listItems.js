@@ -9,16 +9,17 @@ function TextListItem(text) {
 function ListItem() {
   this.children = [];
 
-  this.addChild = function (element) {
-    this.children.push(element);
-    return this;
-  };
-
-  this.render = function () {
-    const childrenHtml = this.children
-      .map(c => c.render())
-      .join("");
-
-    return `<li>${childrenHtml}</li>`
-  };
 }
+
+ListItem.prototype.addChild = function (element) {
+  this.children.push(element);
+  return this;
+};
+
+ListItem.prototype.render = function () {
+  const childrenHtml = this.children
+    .map(c => c.render())
+    .join("");
+
+  return `<li>${childrenHtml}</li>`
+};
