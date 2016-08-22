@@ -1,28 +1,30 @@
-function ListItem() {
-  this.children = [];
+class ListItem {
+
+  constructor() {
+    this.children = [];
+  }
+
+  addChild(element) {
+    this.children.push(element);
+    return this;
+  }
+
+  render() {
+    const childrenHtml = this.children
+      .map(c => c.render())
+      .join("");
+
+    return `<li>${childrenHtml}</li>`
+  }
 
 }
 
-ListItem.prototype.addChild = function (element) {
-  this.children.push(element);
-  return this;
-};
+class TextListItem extends ListItem {
 
-ListItem.prototype.render = function () {
-  const childrenHtml = this.children
-    .map(c => c.render())
-    .join("");
+  constructor(text) {
+    super();
 
-  return `<li>${childrenHtml}</li>`
-};
-
-function TextListItem(text) {
-
-  ListItem.call(this);
-
-  this.addChild(new TextSpan(text));
+    this.addChild(new TextSpan(text));
+  }
 
 }
-
-TextListItem.prototype = Object.create(ListItem.prototype);
-TextListItem.prototype.constructor = TextListItem;
