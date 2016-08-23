@@ -1,6 +1,6 @@
 import _ from "lodash";
 
-export class Input {
+export default class Input {
 
   constructor() {
     this.type = "text";

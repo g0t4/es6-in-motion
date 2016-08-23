@@ -1,5 +1,5 @@
 import {TextListItem, ListItem} from "./listItems";
-import {Input} from "./input";
+import Input from "./input";
 import {TextSpan} from "./span";
 
 const flavorList = new UnorderedList();
