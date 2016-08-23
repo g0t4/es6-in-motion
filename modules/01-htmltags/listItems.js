@@ -1,4 +1,6 @@
-class ListItem {
+import {TextSpan} from "./span";
+
+export class ListItem {
 
   constructor() {
     this.children = [];
@@ -19,7 +21,7 @@ class ListItem {
 
 }
 
-class TextListItem extends ListItem {
+export class TextListItem extends ListItem {
 
   constructor(text) {
     super();

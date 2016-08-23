@@ -1,4 +1,8 @@
-class TextSpan {
+class Hidden {
+
+}
+
+export class TextSpan {
 
   static from(text) {
     return new TextSpan(text);
