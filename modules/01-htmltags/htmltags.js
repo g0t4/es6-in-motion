@@ -1,11 +1,11 @@
-import {TextListItem, ListItem} from "./listItems";
+import * as li from "./listItems";
 import Input from "./input";
 import {TextSpan} from "./span";
 
 const flavorList = new UnorderedList();
 const flavors = ["Chocolate", "Vanilla", "Strawberry", "Banana", "Coconut"];
 for (const flavor of flavors) {
-  const item = new ListItem()
+  const item = new li.ListItem()
     .addChild(new Input().setType("checkbox"))
     .addChild(new TextSpan(flavor));
 
@@ -15,7 +15,7 @@ for (const flavor of flavors) {
 const availability = new UnorderedList();
 const slots = ["Monday at 5PM", "Tuesday at 10PM", "Friday at 8AM"];
 for (const slot of slots) {
-  const item = new TextListItem(slot);
+  const item = new li.TextListItem(slot);
   availability.addListItem(item);
 }
 const container = new Div()
