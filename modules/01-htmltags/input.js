@@ -1,3 +1,5 @@
+import _ from "lodash";
+
 export class Input {
 
   constructor() {
@@ -10,7 +12,8 @@ export class Input {
   }
 
   render() {
-    return `ss<input type="${this.type}"/>`;
+    const elements = _.take([1,2,3], 2);
+    return `ss${elements}<input type="${this.type}"/>`;
   }
 
 }
