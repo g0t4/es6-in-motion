@@ -1,5 +1,4 @@
-import {TextListItem} from "./listItems";
-import {ListItem} from "./listItems";
+import {TextListItem, ListItem} from "./listItems";
 import {Input} from "./input";
 import {TextSpan} from "./span";
 
@@ -32,7 +31,6 @@ const container = new Div()
 const content = document.getElementById("content");
 content.innerHTML = container
   .render();
-
 
 function Div() {
   this.children = [];
