@@ -2,7 +2,7 @@ console.clear();
 
 for(let number = 1; number < 5; number++) {
 
-  console.log(size);
+  console.log(number);
 
   let button = document.createElement("button");
   let size = (number * 100) + "%";
