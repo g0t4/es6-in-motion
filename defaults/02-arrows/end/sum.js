@@ -30,12 +30,12 @@ console.log(sum(cleaned));
 
 const costs = orders.map(({price, quantity = 1}) => price * quantity);
 
-const costs = orders.map(function (order) {
+const costs2 = orders.map(function (order) {
   if (order.quantity === undefined) order.quantity = 1;
   return order.price * order.quantity;
 });
 
-console.log(costs);
+console.log(costs2);
 
 
 
