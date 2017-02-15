@@ -1,4 +1,4 @@
-const museumsDatasetUrl = "../../datasets/museums.json";
+const museumsDatasetUrl = "../../../datasets/museums.json";
 
 // Callback based web request:
 const request = new XMLHttpRequest();
